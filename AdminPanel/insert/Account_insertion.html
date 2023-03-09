@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Insertion</title>
+    <style>
+        body{
+            background-color: azure;
+        }
+        div.form{
+            text-align: center;
+            background-color: bisque;
+            margin-top: 200px;
+            margin-left: 550px;
+            margin-bottom: 50px;
+            margin-right: 550px;
+            padding-bottom: 50px;
+            border-radius: 10px;
+            border: 2px solid black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        form{
+            text-align:end;
+            padding-right:75px;
+        }
+        div.submit{
+            padding-right: 75px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h3>Insert Account</h3>
+        <form action="Account_insertion.php" method="POST"> 
+            Name: 
+            <input type="text" id="name" name="name"> <br>
+            Surname: 
+            <input type="text" id="surname" name="surname"> <br>
+            Mail:
+            <input type="text" id="mail" name="mail"> <br>
+            Password: 
+            <input type="password" id="pass_word" name="pass_word">  <br>
+            
+            
+        
+            <div class="submit">
+                <br>
+                <input type="submit" value="Submit"> 
+            </div>
+        </form> 
+    </div>
+    
+    
+    
+</body>
+</html>

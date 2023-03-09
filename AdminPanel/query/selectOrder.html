@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Selection</title>
+    <style>
+        body{
+            background-color: azure;
+        }
+        div.form{
+            text-align: center;
+            background-color: bisque;
+            margin-top: 200px;
+            margin-left: 550px;
+            margin-bottom: 50px;
+            margin-right: 550px;
+            padding-bottom: 50px;
+            border-radius: 10px;
+            border: 2px solid black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        form{
+            text-align: right;
+            padding-right:100px;
+        }
+        div.submit{
+            padding-right: 75px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form">
+        <h3> <u> Select Orders ordered before </u></h3>
+        <form action="selectOrder.php" method="POST"> 
+            Date and Time: 
+            <input type="datetime-local" id="order_date" name="order_date"> 
+            <div class="submit">
+                <br>
+                <input type="submit" value="Submit"> 
+            </div>
+        </form> 
+        
+    </div>
+    
+</body>
+</html>
+
+
+
+

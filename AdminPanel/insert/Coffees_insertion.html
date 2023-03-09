@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Insertion</title>
+    <style>
+        body{
+            background-color: azure;
+        }
+        div.form{
+            text-align: center;
+            background-color: bisque;
+            margin-top: 200px;
+            margin-left: 550px;
+            margin-bottom: 50px;
+            margin-right: 550px;
+            padding-bottom: 50px;
+            border-radius: 10px;
+            border: 2px solid black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        form{
+            text-align:end;
+            padding-right:75px;
+        }
+        div.submit{
+            padding-right: 75px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h3>INSERT COFFEE</h3>
+        <form action="Coffees_insertion.php" method="POST"> 
+            
+            Coffee Name: 
+            <input type="text" id="coffee_name" name="coffee_name"> <br>
+            Brand:
+            <input type="text" id="brand" name="brand"> <br>
+            Weight: 
+            <input type="number" id="weight" name="weight">  <br>
+            Taste:
+            <input type="text" id="taste" name="taste"><br>
+            Origin: 
+            <input type="text" id="origin" name="origin"> <br>
+            Description: 
+            <input type="text" id="description" name="description"> <br>
+            Price: 
+            <input type="number" id="price" name="price"> <br>
+            
+        
+            <div class="submit">
+                <br>
+                <input type="submit" value="Submit"> 
+            </div>
+        </form> 
+    </div>
+    
+    
+    
+</body>
+</html>

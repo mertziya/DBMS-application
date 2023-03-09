@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Insertion</title>
+    <style>
+        body{
+            background-color: azure;
+        }
+        div.form{
+            text-align: center;
+            background-color: bisque;
+            margin-top: 200px;
+            margin-left: 550px;
+            margin-bottom: 50px;
+            margin-right: 550px;
+            padding-bottom: 50px;
+            border-radius: 10px;
+            border: 2px solid black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        form{
+            text-align:end;
+            padding-right:75px;
+        }
+        div.submit{
+            padding-right: 75px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h3>INSERT Equipment</h3>
+        <form action="Equipments_insertion.php" method="POST"> 
+            Equipment Name: 
+            <input type="text" id="eq_name" name="eq_name"> <br>
+            Equipment Type: 
+            <input type="text" id="eq_type" name="eq_type"> <br>
+            Brand:
+            <input type="text" id="Brand" name="Brand"> <br>
+            Description: 
+            <input type="text" id="Description" name="Description">  <br>
+            Price:
+            <input type="number" id="Price" name="Price"><br>
+            
+            
+        
+            <div class="submit">
+                <br>
+                <input type="submit" value="Submit"> 
+            </div>
+        </form> 
+    </div>
+    
+    
+    
+</body>
+</html>

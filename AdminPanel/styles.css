@@ -1,0 +1,39 @@
+a:link.button, a:visited.button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border-radius: 50px;
+    border: none;
+    
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    text-decoration: none;
+    color:#EDF0F1;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  a:hover.button{
+    background-color: rgba(0, 136, 169, 0.5);
+  }
+
+  
+
+  div.upper_section{
+    text-align: center;
+    padding:20px;
+    margin: -10px -10px -10px -10px;
+    background-color: #24252A;
+  }
+
+  span{
+    color: #EDF0F1;
+    font-size: 20px;
+    font-weight: 800;
+    position: fixed;
+    top: 15px;
+    left: 10px;
+
+  }
