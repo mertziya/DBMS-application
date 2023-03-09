@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "caffeineemporium-342a9",
+  "private_key_id": "c213cb5395e394c60d57293a34df2603c9257b15",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDE4KJMOanpSdRg\nXYFeTpStJVRAFQoVHv90W0QNGYtpKAGxvFUBfbD64A26reC7VX62YasXo3nUksZg\ncvxK+HKhiHmWuBMKwwlP1ELhpviP1ichHRE/PkakqbMhrPmfqBVuLDwMnVIJIO8q\nZDyFysuaQ7NwYRXX3LmyyXazBT+YvycQtOV1Qj9fvv5q9A804yx14Kk1Dnaci32U\nTADR+l6xiCecZdNlofxOePQSMUydbokFLkYLdEo7wZ93ISHh/LI8OYvpgfUPDOGg\nwGn9pzTpjVp7nHmXyXaIYazd17swlTgU5QB+7vvgylD2GpUOSZOyM0T0tsVAiBIa\nuzaQ20E/AgMBAAECggEAQJo5h2uwjoWUc96a8dg1Py+tmq2MtmuKhaLhDK9iKKph\nC/JxrmCRL3FP7/7YbIBcaPpZixMwiglzoPh6QxuNeeXvh/50+SYQqypKnAMPMxuh\nkWMZYrhLtAKfbiB1dOdRyOoo9ja1UZuF/1IO7hQihUdL3UduRHwAT2N+WLYTLUqQ\nqvj70bkEzJw4D6/Ur1/oMXGqMgXybUuJZLKIm37AU4Y56Q/vGCV83hoXSivbNxmc\n7aH+tvvPHuYQhyU/UFW46bU+vWYb0yIY6Qa52x0TYke2EQ7BzV8t8sLbxoKPm1sU\nZPynI2LG4OecBD4TgMcC4qXzlzeKHpygRZ2bAoSYQQKBgQDuhJ9xFLd/T0x1NK1Y\nCep1oUciVybjuWoDhTd6Tfevr9l9M0Sk3VpAht+ITCMwM/+2cZ7b4eqpQ+3D7G6V\n/H72lShyyjxQej7jR006ZLSdQ3UhGr9vZf6XFQwXRYyLRmMNXq/1zCJ1DQjWDSjf\nmF3o5qS3zS8qI/9o9OP/3JBh4QKBgQDTTrKtC23H9g45HyK/mwHEOv1P67MqhSjN\nNP72mvgsoN7ldskc0WOQvSv1BqtfdPVN13BdSDt59iKNHUbR39YSOg7d4Q/862WU\nyxeDVWRd68rqAP0x25glLJcD8UkaQAp7LvN1w7En3v/b7lXu8qKFEyOHmuRP1t+Z\nOqB7i3pHHwKBgGmQzTixYJ26LS7ax7XlfZ3eaatrQ00a7S7tsSYyh+N8QxhErqcB\nSUax6xFaEWDuQsku9I6BKOkNpZhHdpJvlInyblqP464CzP6uuiGUHNRV3Otv+TaG\nv+2CZT2PjKq/1ms+c0aouL9xq22BmYuM1lOUcWbgK3XNROfhK2A88LJBAoGAfYoL\n7XMUzfAJkzZEVsGo0wSY6pqF34UtMH2D3M9FEn6g7oMcCNr95Ef/jZtgxV2fP5f3\nUfRQIa1x6ZSzNo1diYakvn2wGftgZn4iggyBjKtB6rSbuLtWMP/E2LrJS6cwku7a\nBeU1oxKBwBBhTY0psRYlzbLgYe6u+UIzhjLfetECgYEAwwk1XhsWKJqMyuh+znEA\nG+ej3G97HV4pMR8uMcItj00f/mby806+3WdBmp3yu2r1xrFgNKQpDfJdY/6v65NE\nK85fjUGPW+J0J5c+QUmaq9aDiWl5tuAnqFdca/ifRhOWgJVCiGaoSdqVACZ+cHEE\nvMF9LVh4dFYTXIKWN73LVCc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-bgutl@caffeineemporium-342a9.iam.gserviceaccount.com",
+  "client_id": "107709706043852215597",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bgutl%40caffeineemporium-342a9.iam.gserviceaccount.com"
+}
