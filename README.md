@@ -59,5 +59,6 @@ The CaffeineEmporium e-commerce platform is built on a robust and well-structure
 3. import "CaffeineEmporium_SQL.sql" located in this repository to phpmyadmin database.
 4. import "AdminPanel", "UserPanel" and "firebase_ChattingExtension" to "htdocs" file which comes after downloading the XAMPP.
 
-Firebase real time database uri: "https://caffeineemporium-342a9-default-rtdb.firebaseio.com/".
+Firebase real time database uri: "https://caffeineemporium-342a9-default-rtdb.firebaseio.com/"
+
 mail to: "mertziya@sabanciuniv.edu" to have access to firebase realtime database
