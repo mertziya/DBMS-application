@@ -9,19 +9,19 @@ The CaffeineEmporium e-commerce platform uses phpmyadmin(XAMPP), firebase (for c
 ## Database Tables:
 The CaffeineEmporium database consists of seven tables, including five entities and two relationships. The tables are as follows:
 
-1)Accounts: This entity table contains the account details of users. It includes columns such as acc_id, name, surname, mail, and password.
+1. Accounts: This entity table contains the account details of users. It includes columns such as acc_id, name, surname, mail, and password.
 
-2)AccountToCart: This relationship table establishes a link between the Accounts and Carts tables. It includes columns such as acc_id, cart_id, and status.
+2. AccountToCart: This relationship table establishes a link between the Accounts and Carts tables. It includes columns such as acc_id, cart_id, and status.
 
-3)AllProducts: This relationship table establishes a link between the Carts, Coffees, and Equipments tables. It includes columns such as product_id, eq_id, and coffee_id.
+3. AllProducts: This relationship table establishes a link between the Carts, Coffees, and Equipments tables. It includes columns such as product_id, eq_id, and coffee_id.
 
-4)Carts: This entity table contains the details of the products added to the cart by users. It includes columns such as cart_id, product_id, amount, and status.
+4. Carts: This entity table contains the details of the products added to the cart by users. It includes columns such as cart_id, product_id, amount, and status.
 
-5)Coffees: This entity table contains the details of the coffee products available on the platform. It includes columns such as coffee_id, coffee_name, brand, weight, taste, origin, description, image, and price.
+5. Coffees: This entity table contains the details of the coffee products available on the platform. It includes columns such as coffee_id, coffee_name, brand, weight, taste, origin, description, image, and price.
 
-6)Equipments: This entity table contains the details of the coffee appliances available on the platform. It includes columns such as eq_id, eq_name, eq_type, brand, description, image, and price.
+6. Equipments: This entity table contains the details of the coffee appliances available on the platform. It includes columns such as eq_id, eq_name, eq_type, brand, description, image, and price.
 
-7)Orders: This entity table contains the details of the orders made by users. It includes columns such as order_id, order_date, cart_id, and total_cost.
+7. Orders: This entity table contains the details of the orders made by users. It includes columns such as order_id, order_date, cart_id, and total_cost.
 
 ## Database Key Structure:
 The CaffeineEmporium database has a well-structured key hierarchy to ensure data consistency and accuracy. The key structure is as follows:
